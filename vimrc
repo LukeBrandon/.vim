@@ -6,7 +6,10 @@ call plug#begin('~/.vim/plugged')
 	
 call plug#end()
 
+
+
 " Setting things
+set nocompatible		" Does not try to use Vi instead of Vim
 set background=dark
 set showcmd			   " Show (partial) command in status line.
 set showmatch		   " Show matching brackets.
@@ -20,11 +23,11 @@ set number			   " Enable line numbers
 set ts=3				   " Set the tab size to be 3 space
 
 " Enables powerline-status
-set  rtp+=/home/luke/.local/lib/python2.7/site-packages/powerline/bindings/vim
+set rtp+=/home/luke/.local/lib/python2.7/site-packages/powerline/bindings/vim
 set laststatus=2
 set t_Co=256
 
-"Maps CTRL-n to open NERDTree
+" Maps CTRL-n to open NERDTree
 :map <C-n> :NERDTree <Enter>
 
 " Exit insert mode using jj
