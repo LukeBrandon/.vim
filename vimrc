@@ -27,3 +27,6 @@ set t_Co=256
 "Maps CTRL-n to open NERDTree
 :map <C-n> :NERDTree <Enter>
 
+" Exit insert mode using jj
+imap jj <ESC>
+
