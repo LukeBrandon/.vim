@@ -33,3 +33,8 @@ set t_Co=256
 " Exit insert mode using jj
 imap jj <ESC>
 
+" Keep things centered
+nmap j jzz
+nmap k kzz
+nnoremap n nzz
+nnoremap N Nzz
