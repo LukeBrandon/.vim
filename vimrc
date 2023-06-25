@@ -36,5 +36,9 @@ imap jj <ESC>
 " Keep things centered
 nmap j jzz
 nmap k kzz
+
 nnoremap n nzz
 nnoremap N Nzz
+
+nnoremap ciw "_ciw
+xnoremap p "_dp`[v`]""
